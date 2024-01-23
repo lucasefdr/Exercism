@@ -1,6 +1,6 @@
 ﻿namespace CSharp.Boolean;
 
-static class QuestLogic
+public static class QuestLogic
 {
     public static bool CanFastAttack(bool knightIsAwake)
         => !knightIsAwake;
